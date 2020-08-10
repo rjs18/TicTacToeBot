@@ -1,2 +1,2 @@
 ## TicTacToeBot
-A basic Human vs AI code using Mininmax Algorithm, reacreated as a learning excercise.
+A basic Human vs AI code using Minimax Algorithm, reacreated as a learning excercise.
