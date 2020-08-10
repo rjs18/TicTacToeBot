@@ -16,7 +16,7 @@ if(Player==0) currentPlayer = ai;
 else currentPlayer = human;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(200, 200);
   w = width / 3;
   h = height / 3;
   if (currentPlayer == ai){
@@ -84,8 +84,8 @@ function mousePressed() {
 }
 
 function draw() {
-  background(150);
-  strokeWeight(3);
+  background(255);
+  strokeWeight(4);
 
   line(w, 0, w, height);
   line(w * 2, 0, w * 2, height);
