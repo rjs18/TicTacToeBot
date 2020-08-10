@@ -84,8 +84,8 @@ function mousePressed() {
 }
 
 function draw() {
-  background(255);
-  strokeWeight(4);
+  background(150);
+  strokeWeight(3);
 
   line(w, 0, w, height);
   line(w * 2, 0, w * 2, height);
@@ -97,7 +97,7 @@ function draw() {
       let x = w * i + w / 2;
       let y = h * j + h / 2;
       let spot = board[i][j];
-      textSize(32);
+      textSize(16);
       let r = w / 4;
       if (spot == human) {
         noFill();
@@ -113,7 +113,7 @@ function draw() {
   if (result != null) {
     noLoop();
     let resultP = createP('');
-    resultP.style('font-size', '32pt');
+    resultP.style('font-size', '16pt');
     if (result == 'tie') {
       resultP.html('Tie!');
     } else {
